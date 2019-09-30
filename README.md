@@ -6,14 +6,10 @@ C# 7.0 新機能の分解（Deconstruction）を Unity の Vector2、Vector3、V
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
 [![](https://img.shields.io/github/license/baba-s/uni-deconstruction.svg)](https://github.com/baba-s/uni-deconstruction/blob/master/LICENSE)
 
-## バージョン
-
-- Unity 2018.3.11f1
-
 ## インストール
 
 ```json
-"com.baba_s.uni_deconstruction": "https://github.com/baba-s/uni-deconstruction.git"
+"com.baba_s.uni_deconstruction": "https://github.com/baba-s/uni-deconstruction.git",
 ```
 
 manifest.json に上記の記述を追加します  
