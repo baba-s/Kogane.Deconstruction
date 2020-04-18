@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 
-public static class Vector3IntDeconstruction
+namespace UniDeconstruction
 {
-	public static void Deconstruct
-	(
-		this Vector3Int self,
-		out  int        x,
-		out  int        y,
-		out  int        z
-	)
+	public static class Vector3IntDeconstruction
 	{
-		x = self.x;
-		y = self.y;
-		z = self.z;
+		public static void Deconstruct
+		(
+			this Vector3Int self,
+			out  int        x,
+			out  int        y,
+			out  int        z
+		)
+		{
+			x = self.x;
+			y = self.y;
+			z = self.z;
+		}
 	}
 }

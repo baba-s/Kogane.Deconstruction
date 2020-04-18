@@ -1,13 +1,16 @@
-﻿public static class NullableDeconstruction
+﻿namespace UniDeconstruction
 {
-	public static void Deconstruct<T>
-	(
-		this T?   self,
-		out  bool hasValue,
-		out  T    value
-	) where T : struct
+	public static class NullableDeconstruction
 	{
-		hasValue = self.HasValue;
-		value    = self ?? default;
+		public static void Deconstruct<T>
+		(
+			this T?   self,
+			out  bool hasValue,
+			out  T    value
+		) where T : struct
+		{
+			hasValue = self.HasValue;
+			value    = self ?? default;
+		}
 	}
 }

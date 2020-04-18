@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 
-public static class Vector2Deconstruction
+namespace UniDeconstruction
 {
-	public static void Deconstruct
-	(
-		this Vector2 self,
-		out  float   x,
-		out  float   y
-	)
+	public static class Vector2Deconstruction
 	{
-		x = self.x;
-		y = self.y;
+		public static void Deconstruct
+		(
+			this Vector2 self,
+			out  float   x,
+			out  float   y
+		)
+		{
+			x = self.x;
+			y = self.y;
+		}
 	}
 }

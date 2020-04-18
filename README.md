@@ -2,14 +2,14 @@
 
 C# 7.0 新機能の分解（Deconstruction）を Unity の Vector2、Vector3、Vector4、Color、Rect などのいくつかの型で使用できるようにするパッケージ
 
-![](https://img.shields.io/badge/Unity-2018.3%2B-red.svg)
+![](https://img.shields.io/badge/Unity-2019.2%2B-red.svg)
 ![](https://img.shields.io/badge/.NET-4.x-orange.svg)
-[![](https://img.shields.io/github/license/baba-s/uni-deconstruction.svg)](https://github.com/baba-s/uni-deconstruction/blob/master/LICENSE)
+[![](https://img.shields.io/github/license/baba-s/uni-deconstruction.svg)](https://github.com/baba-s/uni-deconstruction/blob/master/LICENSE.md)
 
 ## インストール
 
 ```json
-"com.baba_s.uni_deconstruction": "https://github.com/baba-s/uni-deconstruction.git",
+"com.baba-s.uni-deconstruction": "https://github.com/baba-s/uni-deconstruction.git",
 ```
 
 manifest.json に上記の記述を追加します  

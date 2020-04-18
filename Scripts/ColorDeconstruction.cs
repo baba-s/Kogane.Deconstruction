@@ -1,32 +1,35 @@
 ﻿using UnityEngine;
 
-public static class ColorDeconstruction
+namespace UniDeconstruction
 {
-	public static void Deconstruct
-	(
-		this Color self,
-		out  float r,
-		out  float g,
-		out  float b
-	)
+	public static class ColorDeconstruction
 	{
-		r = self.r;
-		g = self.g;
-		b = self.b;
-	}
+		public static void Deconstruct
+		(
+			this Color self,
+			out  float r,
+			out  float g,
+			out  float b
+		)
+		{
+			r = self.r;
+			g = self.g;
+			b = self.b;
+		}
 
-	public static void Deconstruct
-	(
-		this Color self,
-		out  float r,
-		out  float g,
-		out  float b,
-		out  float a
-	)
-	{
-		r = self.r;
-		g = self.g;
-		b = self.b;
-		a = self.a;
+		public static void Deconstruct
+		(
+			this Color self,
+			out  float r,
+			out  float g,
+			out  float b,
+			out  float a
+		)
+		{
+			r = self.r;
+			g = self.g;
+			b = self.b;
+			a = self.a;
+		}
 	}
 }
