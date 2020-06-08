@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UniDeconstruction
+namespace Kogane
 {
 	public static class DateTimeDeconstruction
 	{

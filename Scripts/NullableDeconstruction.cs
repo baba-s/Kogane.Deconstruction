@@ -1,4 +1,4 @@
-﻿namespace UniDeconstruction
+﻿namespace Kogane
 {
 	public static class NullableDeconstruction
 	{

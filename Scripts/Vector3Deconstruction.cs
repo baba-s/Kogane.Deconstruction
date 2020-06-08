@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UniDeconstruction
+namespace Kogane
 {
 	public static class Vector3Deconstruction
 	{
