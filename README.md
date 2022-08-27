@@ -1,4 +1,4 @@
-# Uni Deconstruction
+# Kogane Deconstruction
 
 C# 7.0 新機能の分解（Deconstruction）を Unity の Vector2、Vector3、Vector4、Color、Rect などのいくつかの型で使用できるようにするパッケージ
 
